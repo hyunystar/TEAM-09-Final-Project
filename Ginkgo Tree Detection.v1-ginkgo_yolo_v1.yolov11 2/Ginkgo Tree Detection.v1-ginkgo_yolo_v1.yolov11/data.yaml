@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['ginkgo', 'other']
+
+roboflow:
+  workspace: minjis-workspace-hdqwr
+  project: ginkgo-tree-detection-pw1jj
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/minjis-workspace-hdqwr/ginkgo-tree-detection-pw1jj/1
